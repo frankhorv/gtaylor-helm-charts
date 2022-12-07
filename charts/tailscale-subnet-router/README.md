@@ -4,6 +4,8 @@
 
 Deploy a Tailscale subnet router on Kubernetes
 
+Hivewatch
+
 **Homepage:** <https://github.com/gtaylor/helm-charts/charts/tailscale-subnet-router>
 
 ## Maintainers
