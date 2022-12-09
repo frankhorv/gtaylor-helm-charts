@@ -68,6 +68,23 @@ entries:
     version: 0.2.0
   tailscale-subnet-router:
   - apiVersion: v2
+    appVersion: v1.34.0
+    created: "2022-12-09T14:38:54.042911178Z"
+    description: Deploy a Tailscale subnet router on Kubernetes
+    digest: 151075dd7f68e249f85d93680b5cf62770f7e3117847189759cddb0808f1b628
+    home: https://github.com/gtaylor/helm-charts/charts/tailscale-subnet-router
+    maintainers:
+    - email: greg@gctaylor.com
+      name: Greg Taylor
+      url: https://gc-taylor.com
+    name: tailscale-subnet-router
+    sources:
+    - https://github.com/gtaylor/helm-charts/charts/tailscale-subnet-router
+    type: application
+    urls:
+    - https://github.com/frankhorv/gtaylor-helm-charts/releases/download/tailscale-subnet-router-1.2.2/tailscale-subnet-router-1.2.2.tgz
+    version: 1.2.2
+  - apiVersion: v2
     appVersion: v1.30.0
     created: "2022-09-02T23:44:09.190814867Z"
     description: Deploy a Tailscale subnet router on Kubernetes
@@ -165,4 +182,4 @@ entries:
     urls:
     - https://github.com/gtaylor/helm-charts/releases/download/tailscale-subnet-router-0.1.0/tailscale-subnet-router-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-02T23:44:09.191126373Z"
+generated: "2022-12-09T14:38:54.043079981Z"
